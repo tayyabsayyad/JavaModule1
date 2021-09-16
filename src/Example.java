@@ -6,10 +6,14 @@ import javax.sound.midi.Soundbank;
 class Example {
     public static void main(String[] args)
     {
-        int num = 10;
-        System.out.println(" Num = "+num);
-        num = 2 * num;
-        System.out.println("Value of num is multiplied by 2 ");
-        System.out.println(num);
+        int x = 2,y = 0;
+
+        if(x>y) {
+            System.out.println("X is boss ");
+        }
+        else {
+            System.out.println("Y is BoSS ");
+            System.out.printf(" Is this going to be printer on screen ?");
+        }
     }
 }
